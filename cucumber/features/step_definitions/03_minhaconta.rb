@@ -5,7 +5,6 @@ end
 Quando(/^eu acessar a minha conta$/) do
   #Clina no nome do usuário para abirir o menu
   page.find("#user-name").click
-  sleep 2
   #Clica no link Minha conta
   page.find('#user-account').click
   sleep 2
