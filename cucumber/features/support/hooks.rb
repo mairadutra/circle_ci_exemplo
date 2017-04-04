@@ -20,16 +20,16 @@ Before do |feature|
 end
 
 
-# After do |scenario|
-#   ## take screenshot
-#   scenario_name = scenario.name.gsub(/\s+/, '_').tr('/', '_')
-#   if scenario.failed?
-#     take_screenshot(scenario_name.downcase!, 'failed')
-#   else
-#     take_screenshot(scenario_name.downcase!, 'passed')
-#   end
-#   # kills instance when not headless
-#   # unless BROWSER.eql?('poltergeist')
-#   #   Capybara.current_session.driver.quit
-#   # end
-# end
+After do |scenario|
+  ## take screenshot
+  scenario_name = scenario.name.gsub(/\s+/, '_').tr('/', '_')
+  if scenario.failed?
+    take_screenshot(scenario_name.downcase!, 'failed')
+  else
+    take_screenshot(scenario_name.downcase!, 'passed')
+  end
+  # kills instance when not headless
+  # unless BROWSER.eql?('poltergeist')
+  #   Capybara.current_session.driver.quit
+  # end
+end
