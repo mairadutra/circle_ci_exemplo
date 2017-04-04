@@ -1,6 +1,8 @@
 # INTEGRAÇÃO CIRCLE CI
 Projeto de teste para aprender a utilzar o Circle [CI] (https://circleci.com)
 
+[![CircleCI](https://circleci.com/gh/mairadutra/circle_ci_exemplo.svg?style=svg)](https://circleci.com/gh/mairadutra/circle_ci_exemplo)
+
 O Circle CI é uma ferramenta para Continuos Integration que facilitou muito o processo de ter
 teste rodando em uma ferramenta de entrega contínua já que não é necessário instalar Jenkis nem
 configurar plugins. Todo trabalho pesado é feito confugurando somente um arquivo:  circle.yml
