@@ -66,7 +66,7 @@ Essa parte é a mais importante, pois é exatamente nesse bloco :test que você 
 Volta para a pasta cucumber e ececuta o teste.
 O -p chrome é pra rodar no google chrome, e o -p qa é porque eu defini um ambiente de QA para que os meus testes possam ser executados.
 
-#Associando o projeto ao Circle Ci
+## Associando o projeto ao Circle Ci
 
 Acesse a página do Circle Ci (https://circleci.com/) e:
 
