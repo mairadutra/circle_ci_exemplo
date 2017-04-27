@@ -66,6 +66,16 @@ Essa parte é a mais importante, pois é exatamente nesse bloco :test que você 
 Volta para a pasta cucumber e ececuta o teste.
 O -p chrome é pra rodar no google chrome, e o -p qa é porque eu defini um ambiente de QA para que os meus testes possam ser executados.
 
+#Associando o projeto ao Circle Ci
 
+Acesse a página do Circle Ci (https://circleci.com/) e:
+
+1- Entre com seu usuário do Github no Circle Ci
+
+2- clique em Projects e, em seguida, na aba do Github clique em seu usuário;
+
+3- Seus projetos existentes no repositório serão listados, clique no botão Build Project para automaticamente rodar a build de seu projeto.
+
+Vale lembrar que toda vez que ocorrrer commit em seu repositório o circle ci criará uma nova execução dos testes.
 
 Para outras inforamções acessara a [Docuemntação]  (https://circleci.com/docs/)
