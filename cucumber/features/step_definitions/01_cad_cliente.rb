@@ -22,5 +22,5 @@ Quando(/^aciono a ação cadastrar$/) do
 end
 
 Então(/^eu tenho um usuário cadastrado$/) do
-    expect(page).to have_xpath("//h2[text()='Melhores ofertas para você']")
+    expect(page).to have_xpath("//p[text()='Divirta-se']")
 end
