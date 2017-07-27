@@ -13,7 +13,7 @@ Quando(/^efetuar o login$/) do
 end
 
 Entao(/^estarei autenticado no sistema$/) do
-  expect(page).to have_xpath("//h2[text()='Melhores ofertas para você']")
+  expect(page).to have_xpath("//h2[text()='//p[text()='Divirta-se']']")
   sleep 2
   puts "O usuário é " +  @email
   puts "A senha é " +   @senha
